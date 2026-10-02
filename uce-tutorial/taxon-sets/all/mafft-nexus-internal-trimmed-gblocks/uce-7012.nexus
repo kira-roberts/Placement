@@ -1,0 +1,10 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=153;
+format datatype=dna missing=? gap=-;
+matrix
+'uce-7012_alligator' aactttctcagctcttctttttgcctttgctaggctctctgtcactggaaacatcttaaaccaatttaaagtgctacacctgaataaacatgttgtaaaagtgtttatgtattgaagtgggtcagttcaaggtatggtatttggctggaactt
+'uce-7012_gallus'    aactttctcagttc-ttctcctgcctttgctgggctctctgtcactggaaacatcttaaaccaatttaaagtgctacacctgaataaacatgttgtaaaagtgtttatgtattgaagtgggtcagttcaaggtatggtatttggctggaactt
+'uce-7012_mus'       aagtttctcagtttttttcttttcttttgctgagctctctgttgctggaaac-tcttaaaccgatttcaagggctacacctgaataaacacgttgtaaaagtgtttatgtattgaagtggctcagttcaaggtatggtatttggctggaactt
+;
+end;

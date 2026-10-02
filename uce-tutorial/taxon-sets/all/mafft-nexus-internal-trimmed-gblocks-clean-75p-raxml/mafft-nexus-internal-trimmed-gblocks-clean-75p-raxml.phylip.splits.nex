@@ -1,0 +1,25 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=4;
+TAXLABELS
+[1] 'anolis'
+[2] 'gallus'
+[3] 'mus'
+[4] 'alligator'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=4 nsplits=6;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 4,
+	100	 1 3,
+	100	 3,
+	100	 1,
+	0	 1 2,
+;
+END; [Splits]
+

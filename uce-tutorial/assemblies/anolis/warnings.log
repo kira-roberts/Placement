@@ -1,0 +1,9 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:05.253    17M / 428M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 8
+ * 0:00:05.254    17M / 428M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 8
+ * 0:00:05.477    15M / 428M  WARN    General                 (simplification.cpp        : 504)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:00:02.947    16M / 399M  WARN    General                 (kmer_coverage_model.cpp   : 218)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:05.641    16M / 399M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 3
+ * 0:00:03.594    18M / 379M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 3
+======= Warnings saved to /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/anolis/warnings.log

@@ -1,0 +1,138 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_5nyyegve
+  output_files:
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected/corrected.yaml
+  path: /usr/libexec/spades/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /usr/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /usr/share/spades
+  - --max_threads
+  - '16'
+  - --output_dir
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /usr/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  output_files: []
+  path: /usr/libexec/spades/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  output_files: []
+  path: /usr/libexec/spades/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  output_files: []
+  path: /usr/libexec/spades/spades-core
+  short_name: k55
+- STAGE: Copy files
+  args:
+  - /usr/share/spades/spades_pipeline/scripts/copy_files.py
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/before_rr.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/before_rr.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/assembly_graph_after_simplification.gfa
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/assembly_graph_after_simplification.gfa
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/final_contigs.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/contigs.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/first_pe_contigs.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/first_pe_contigs.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/strain_graph.gfa
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/strain_graph.gfa
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/scaffolds.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/scaffolds.fasta
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/scaffolds.paths
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/scaffolds.paths
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/assembly_graph_with_scaffolds.gfa
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/assembly_graph_with_scaffolds.gfa
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/assembly_graph.fastg
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/assembly_graph.fastg
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/K55/final_contigs.paths
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_jks0n2m6
+  output_files: []
+  path: /usr/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /usr/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/scaffolds.fasta
+  - --misc_dir
+  - /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /usr/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

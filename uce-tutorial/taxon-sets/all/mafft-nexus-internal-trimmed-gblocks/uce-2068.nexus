@@ -1,0 +1,11 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=320;
+format datatype=dna missing=? gap=-;
+matrix
+'uce-2068_alligator' gttgaagagaaactattaattactagacagacagttagcttacaagtgagctgcattttaaaaacctcctttaaaatacaattgctaaatgccttacagtgctgtaatgtgagacaggttcaaatcttattacttcactgaaattaaaacctaagttttaatactgttcaagtcgaacaatgattccacactttattgcttttgaaatcccttgatgatcataggaaaaaatgccctcgaga------------------------------------------------------------------------------
+'uce-2068_anolis'    -ccaaagagaaactattaattattagacaggctgttagcttacaagtgagatgcattttaaaaacctcctttaaaatacaattgctaaatgcctcacagtgctgtaacgtgagacaggttcaaatcttattacttcactgaaattaaaacctaagttttaatactgttcaagtcgaacaatgattccacactttattgcttttgaaatcccttgatgatcataggaaaaaatgccctcgagaaaaaaagactctgttttcgataaacagaaaaatccacgaaattcgtacctaacatagaagtctccaagtgaaacattt
+'uce-2068_gallus'    gctgaagagaaactattaattattagacagacggttagcttacaagtgagctgcattttaaaaacctcctttaaaatacaattgctaaatgccttacagtgctgtaatgtgagacaggttcaaatcttattacttcactgaaattaaaacctaagttttaatactgttcaagtcgaacaatgattccacactttattgcttttgaaatcccttgatgatcataggaaaaaatgccctcgagaaaaagagactctgttttcgataaacagaaaataccacaaaaaaaggatttaatgccaattctttaaaaaaagactttt
+'uce-2068_mus'       gctaaagaaaaactattaattaccgaa-agacagttagcttacaagtgagctgcattttaaaaacctcctttaaaatacaattgctaaatgccttacagtgctgtaatgtgagacaggttcaaatcttattacttcactgaaattaaaacctaagttttaatactgctcaagtcgaacaatgattccacactttattgcttttgaaatcccttgatgatcataggaaaaaatgccccggagaaaaaaaga--ctgttttcgataaacagaaaataccacaaaaaaaggatttaatgccaattctttaaaaaaagactttt
+;
+end;

@@ -1,0 +1,15 @@
+2026-09-25 13:37:25,392 - phyluce_align_concatenate_alignments - INFO - ========= Starting phyluce_align_concatenate_alignments =========
+2026-09-25 13:37:25,392 - phyluce_align_concatenate_alignments - INFO - Version: 1.7.3
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Commit: None
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --alignments: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-75p
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --input_format: nexus
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --log_path: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/log
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --nexus: False
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --output: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --phylip: True
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Argument --verbosity: INFO
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Reading input alignments in NEXUS format
+2026-09-25 13:37:25,393 - phyluce_align_concatenate_alignments - INFO - Getting alignment files
+2026-09-25 13:37:25,694 - phyluce_align_concatenate_alignments - INFO - Concatenating files
+2026-09-25 13:37:25,743 - phyluce_align_concatenate_alignments - INFO - Writing concatenated alignment to PHYLIP format (with charsets)
+2026-09-25 13:37:25,745 - phyluce_align_concatenate_alignments - INFO - ========= Completed phyluce_align_concatenate_alignments ========

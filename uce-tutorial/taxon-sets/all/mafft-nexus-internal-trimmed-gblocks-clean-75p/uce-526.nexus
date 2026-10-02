@@ -1,0 +1,10 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=240;
+format datatype=dna missing=? gap=-;
+matrix
+anolis ------------------------atataaagaatcacttttggagacacctgatctttggcatgcagcatcgtttgtaacaattttaacgctaactaactacactttgatgagacagcatttaataaaatgctcattaatttcatcattagcaagggtatgctaagaagtaagccagtttcttatgtcacgcccaattagcatcccatgctagtaatcccattagtattgttgaattca
+gallus tgctctagactgttgccaaacataatatgaagaaccacttattcaggcacctgatctttagaatgcagcatcgtttgtaacaattttaacgctaactaagtacactttgatgagacagcatttaataaaatgctcattaatttcatcattagcaagggtatgctaagaagtaagccagtttcttatgtcacgcccaattagcatcccatgctagtaatcccattagtattgttgaattca
+mus    tgcttcagattattgccaaacacaatctacagagcctctgcctcagacacctgatctttaaaatgcagaaccgtttgtaacaattttaacgctaactaagtacactttgatgagacagcgtttaataaaatgctcattaatttcatcattagcaagggtatgctcagaagtaagccagtttcttatgtcac---------acatcccatgctagtaatcccattagtattgttgaattca
+;
+end;

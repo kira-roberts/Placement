@@ -1,0 +1,38 @@
+Ä---
+max read length: 100
+nomerge max read length: 100
+average read length: 98.5016
+average coverage: 2.57218
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected/alligator_R1.fq.00.0_0.cor.fastq.gz'
+    right reads:
+      - '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected/alligator_R2.fq.00.0_0.cor.fastq.gz'
+    single reads:
+      - '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/corrected/alligator_R_unpaired.00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 100
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/.bin_reads/INFO_0'
+        paired read prefix: '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/.bin_reads/paired_0'
+        merged read prefix: '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/.bin_reads/merged_0'
+        single read prefix: '/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/.bin_reads/single_0'
+        chunk num:       4
+      single reads mapped: false
+      library index:   0
+      number of reads: 86052
+      total nucleotides: 8476259
+...

@@ -1,0 +1,40 @@
+2026-09-25 10:19:55,336 - phyluce_assembly_match_contigs_to_probes - INFO - ======= Starting phyluce_assembly_match_contigs_to_probes =======
+2026-09-25 10:19:55,336 - phyluce_assembly_match_contigs_to_probes - INFO - Version: 1.7.3
+2026-09-25 10:19:55,336 - phyluce_assembly_match_contigs_to_probes - INFO - Commit: None
+2026-09-25 10:19:55,336 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --contigs: /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies
+2026-09-25 10:19:55,336 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --csv: None
+2026-09-25 10:19:55,336 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --dupefile: None
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --keep_duplicates: None
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --log_path: None
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --min_coverage: 80
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --min_identity: 80
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --output: /gpfs01/home/jc428818/Placement/uce-tutorial/uce-results-contigmatch
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --probes: /gpfs01/home/jc428818/Placement/uce-tutorial/uce-5k-probes.fasta
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --regex: ^(uce-\d+)(?:_p\d+.*)
+2026-09-25 10:19:55,337 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --verbosity: INFO
+2026-09-25 10:19:55,410 - phyluce_assembly_match_contigs_to_probes - INFO - Creating the UCE-match database
+2026-09-25 10:36:08,755 - phyluce_assembly_match_contigs_to_probes - INFO - ======= Starting phyluce_assembly_match_contigs_to_probes =======
+2026-09-25 10:36:08,757 - phyluce_assembly_match_contigs_to_probes - INFO - Version: 1.7.3
+2026-09-25 10:36:08,757 - phyluce_assembly_match_contigs_to_probes - INFO - Commit: None
+2026-09-25 10:36:08,758 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --contigs: /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/contigs
+2026-09-25 10:36:08,758 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --csv: None
+2026-09-25 10:36:08,758 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --dupefile: None
+2026-09-25 10:36:08,758 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --keep_duplicates: None
+2026-09-25 10:36:08,758 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --log_path: None
+2026-09-25 10:36:08,759 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --min_coverage: 80
+2026-09-25 10:36:08,759 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --min_identity: 80
+2026-09-25 10:36:08,759 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --output: /gpfs01/home/jc428818/Placement/uce-tutorial/uce-results-contigmatch
+2026-09-25 10:36:08,759 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --probes: /gpfs01/home/jc428818/Placement/uce-tutorial/uce-5k-probes.fasta
+2026-09-25 10:36:08,760 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --regex: ^(uce-\d+)(?:_p\d+.*)
+2026-09-25 10:36:08,760 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --verbosity: INFO
+2026-09-25 10:36:08,821 - phyluce_assembly_match_contigs_to_probes - INFO - Creating the UCE-match database
+2026-09-25 10:36:08,883 - phyluce_assembly_match_contigs_to_probes - INFO - Processing contig data
+2026-09-25 10:36:08,883 - phyluce_assembly_match_contigs_to_probes - INFO - -----------------------------------------------------------------
+2026-09-25 10:36:10,361 - phyluce_assembly_match_contigs_to_probes - INFO - alligator: 538 (60.04%) uniques of 896 contigs, 0 dupe probe matches, 3 UCE loci removed for matching multiple contigs, 3 contigs removed for matching multiple UCE loci
+2026-09-25 10:36:11,669 - phyluce_assembly_match_contigs_to_probes - INFO - anolis: 407 (42.35%) uniques of 961 contigs, 0 dupe probe matches, 0 UCE loci removed for matching multiple contigs, 4 contigs removed for matching multiple UCE loci
+2026-09-25 10:36:18,600 - phyluce_assembly_match_contigs_to_probes - INFO - gallus: 3178 (79.73%) uniques of 3986 contigs, 0 dupe probe matches, 21 UCE loci removed for matching multiple contigs, 43 contigs removed for matching multiple UCE loci
+2026-09-25 10:36:19,745 - phyluce_assembly_match_contigs_to_probes - INFO - mus: 332 (39.48%) uniques of 841 contigs, 0 dupe probe matches, 0 UCE loci removed for matching multiple contigs, 1 contigs removed for matching multiple UCE loci
+2026-09-25 10:36:19,745 - phyluce_assembly_match_contigs_to_probes - INFO - -----------------------------------------------------------------
+2026-09-25 10:36:19,746 - phyluce_assembly_match_contigs_to_probes - INFO - The LASTZ alignments are in /gpfs01/home/jc428818/Placement/uce-tutorial/uce-results-contigmatch
+2026-09-25 10:36:19,746 - phyluce_assembly_match_contigs_to_probes - INFO - The UCE match database is in /gpfs01/home/jc428818/Placement/uce-tutorial/uce-results-contigmatch/probe.matches.sqlite
+2026-09-25 10:36:19,746 - phyluce_assembly_match_contigs_to_probes - INFO - ======= Completed phyluce_assembly_match_contigs_to_probes ======

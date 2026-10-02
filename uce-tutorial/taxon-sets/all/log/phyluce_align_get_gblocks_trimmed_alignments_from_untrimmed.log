@@ -1,0 +1,20 @@
+2026-09-25 13:07:32,751 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO -  Starting phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed 
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Version: 1.7.3
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Commit: None
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --alignments: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --b1: 0.5
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --b2: 0.85
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --b3: 8
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --b4: 10
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --cores: 4
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --input_format: fasta
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --log_path: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/log
+2026-09-25 13:07:32,752 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --output: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks
+2026-09-25 13:07:32,753 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --output_format: nexus
+2026-09-25 13:07:32,753 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Argument --verbosity: INFO
+2026-09-25 13:07:32,753 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Getting aligned sequences for trimming
+2026-09-25 13:07:32,756 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Alignment trimming begins.
+2026-09-25 13:07:33,897 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Alignment trimming ends
+2026-09-25 13:07:33,897 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO - Writing output files
+2026-09-25 13:07:33,981 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - WARNING - Unable to write uce-816 - alignment too short
+2026-09-25 13:07:34,153 - phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed - INFO -  Completed phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed 

@@ -1,0 +1,7 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:06.359    17M / 424M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 2
+ * 0:00:04.192    17M / 403M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 4
+ * 0:00:04.192    17M / 403M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 4
+ * 0:00:02.222    19M / 380M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 2
+======= Warnings saved to /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/mus/warnings.log

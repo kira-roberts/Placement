@@ -1,0 +1,11 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=304;
+format datatype=dna missing=? gap=-;
+matrix
+'uce-1469_alligator' tcctatttgtaattaaatgcagcgatcagcagtaaggattttgaagctgttttagtagttccgctattctgcttaacatgtggcacccgtaataattaaaatgatactaacacatgcacaattttatggcccttatggtgcaacccattatgccaaataagggcctctgttttcacagcatactgcacatggtctcattacacccact------------------------------------------------------------------------------------------------
+'uce-1469_anolis'    -------------------cagcaatcagcagtaaggattttgaagctgttttagtagttccgctattctgcttaacatgtggcacccgtaataattaaaatgatactaacacatgcacaattttatggcccttatggtgcaacccattatgccaaataagggcctctgttttcacagcatactgcacatggtctcattacacccacttttcttttcctgtcttcacactaacaactgttaaagtgaatcaacacacgcaacgtactctaacagcttagtgtttatgatatgtgtgctgttagt
+'uce-1469_gallus'    tcctatttgtaattaaatgcagcgatcagcagtaaggattttgaagctgttttagtagttccgctattctgcttaacatgtggcacccgtaataattaaaatgatactaacacatgcacaattttatggcccttatggtgcaacccattatgccaaataagggcctctgttttcacagcatactgcacatggtctcattacacccacttttcttttcctgtcttcacactaacaactgttaaagtgaatcaacacacgaaacgtactataacagcttagtgtttatgatatgtgtgctgttagt
+'uce-1469_mus'       tcctatttgtaattaaatgcagcgatcagcagtaaggattttgaagctgttttagtagttccgctattctgcttaacatgtggcacccgtaataattaaaatgatactaacacatgcacaattttatggcccttatggtgcaacccattatgccaaataagggcctctgttttcacagcattctgcacatggtctcattacacccacttttcttttcctgtcttcacactaacaactgttaaagtgaatcaacacacgaaacgtactgtaacagcttagtgtttatgatatgtgtgctgttagt
+;
+end;

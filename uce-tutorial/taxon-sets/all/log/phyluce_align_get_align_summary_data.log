@@ -1,0 +1,115 @@
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - ========= Starting phyluce_align_get_align_summary_data =========
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Version: 1.7.3
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Commit: None
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --alignments: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-edge-trimmed
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --cores: 4
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --input_format: nexus
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --log_path: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/log
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --output: None
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --show_taxon_counts: False
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Argument --verbosity: INFO
+2026-09-25 12:18:12,667 - phyluce_align_get_align_summary_data - INFO - Getting alignment files
+2026-09-25 12:18:12,668 - phyluce_align_get_align_summary_data - INFO - Computing summary statistics using 4 cores
+2026-09-25 12:18:13,246 - phyluce_align_get_align_summary_data - INFO - ----------------------- Alignment summary -----------------------
+2026-09-25 12:18:13,246 - phyluce_align_get_align_summary_data - INFO - [Alignments] loci:	191
+2026-09-25 12:18:13,246 - phyluce_align_get_align_summary_data - INFO - [Alignments] length:	87,530
+2026-09-25 12:18:13,247 - phyluce_align_get_align_summary_data - INFO - [Alignments] mean:	458.27
+2026-09-25 12:18:13,247 - phyluce_align_get_align_summary_data - INFO - [Alignments] 95% CI:	21.64
+2026-09-25 12:18:13,247 - phyluce_align_get_align_summary_data - INFO - [Alignments] min:	142
+2026-09-25 12:18:13,247 - phyluce_align_get_align_summary_data - INFO - [Alignments] max:	907
+2026-09-25 12:18:13,247 - phyluce_align_get_align_summary_data - INFO - ------------------- Informative Sites summary -------------------
+2026-09-25 12:18:13,248 - phyluce_align_get_align_summary_data - INFO - [Sites] loci:	191
+2026-09-25 12:18:13,248 - phyluce_align_get_align_summary_data - INFO - [Sites] total:	65
+2026-09-25 12:18:13,248 - phyluce_align_get_align_summary_data - INFO - [Sites] mean:	0.34
+2026-09-25 12:18:13,248 - phyluce_align_get_align_summary_data - INFO - [Sites] 95% CI:	0.19
+2026-09-25 12:18:13,248 - phyluce_align_get_align_summary_data - INFO - [Sites] min:	0
+2026-09-25 12:18:13,248 - phyluce_align_get_align_summary_data - INFO - [Sites] max:	12
+2026-09-25 12:18:13,250 - phyluce_align_get_align_summary_data - INFO - ------------------------- Taxon summary -------------------------
+2026-09-25 12:18:13,250 - phyluce_align_get_align_summary_data - INFO - [Taxa] mean:		3.16
+2026-09-25 12:18:13,250 - phyluce_align_get_align_summary_data - INFO - [Taxa] 95% CI:	0.05
+2026-09-25 12:18:13,250 - phyluce_align_get_align_summary_data - INFO - [Taxa] min:		3
+2026-09-25 12:18:13,250 - phyluce_align_get_align_summary_data - INFO - [Taxa] max:		4
+2026-09-25 12:18:13,251 - phyluce_align_get_align_summary_data - INFO - ----------------- Missing data from trim summary ----------------
+2026-09-25 12:18:13,251 - phyluce_align_get_align_summary_data - INFO - [Missing] mean:	9.26
+2026-09-25 12:18:13,251 - phyluce_align_get_align_summary_data - INFO - [Missing] 95% CI:	0.85
+2026-09-25 12:18:13,251 - phyluce_align_get_align_summary_data - INFO - [Missing] min:	0.19
+2026-09-25 12:18:13,251 - phyluce_align_get_align_summary_data - INFO - [Missing] max:	32.67
+2026-09-25 12:18:13,253 - phyluce_align_get_align_summary_data - INFO - -------------------- Character count summary --------------------
+2026-09-25 12:18:13,253 - phyluce_align_get_align_summary_data - INFO - [All characters]	273,662
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Nucleotides]		239,874
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - ---------------- Data matrix completeness summary ---------------
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Matrix 50%]		191 alignments
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Matrix 55%]		191 alignments
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Matrix 60%]		191 alignments
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Matrix 65%]		191 alignments
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Matrix 70%]		191 alignments
+2026-09-25 12:18:13,254 - phyluce_align_get_align_summary_data - INFO - [Matrix 75%]		191 alignments
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Matrix 80%]		31 alignments
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Matrix 85%]		31 alignments
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Matrix 90%]		31 alignments
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Matrix 95%]		31 alignments
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - ------------------------ Character counts -----------------------
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Characters] '-' is present 8,629 times
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Characters] '?' is present 25,159 times
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Characters] 'A' is present 71,880 times
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Characters] 'C' is present 49,247 times
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Characters] 'G' is present 43,011 times
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - [Characters] 'T' is present 75,736 times
+2026-09-25 12:18:13,255 - phyluce_align_get_align_summary_data - INFO - ========= Completed phyluce_align_get_align_summary_data ========
+2026-09-25 13:09:57,172 - phyluce_align_get_align_summary_data - INFO - ========= Starting phyluce_align_get_align_summary_data =========
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Version: 1.7.3
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Commit: None
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Argument --alignments: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Argument --cores: 4
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Argument --input_format: nexus
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Argument --log_path: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/log
+2026-09-25 13:09:57,204 - phyluce_align_get_align_summary_data - INFO - Argument --output: None
+2026-09-25 13:09:57,205 - phyluce_align_get_align_summary_data - INFO - Argument --show_taxon_counts: False
+2026-09-25 13:09:57,205 - phyluce_align_get_align_summary_data - INFO - Argument --verbosity: INFO
+2026-09-25 13:09:57,205 - phyluce_align_get_align_summary_data - INFO - Getting alignment files
+2026-09-25 13:09:57,208 - phyluce_align_get_align_summary_data - INFO - Computing summary statistics using 4 cores
+2026-09-25 13:09:57,797 - phyluce_align_get_align_summary_data - INFO - ----------------------- Alignment summary -----------------------
+2026-09-25 13:09:57,798 - phyluce_align_get_align_summary_data - INFO - [Alignments] loci:	190
+2026-09-25 13:09:57,798 - phyluce_align_get_align_summary_data - INFO - [Alignments] length:	70,485
+2026-09-25 13:09:57,798 - phyluce_align_get_align_summary_data - INFO - [Alignments] mean:	370.97
+2026-09-25 13:09:57,798 - phyluce_align_get_align_summary_data - INFO - [Alignments] 95% CI:	21.60
+2026-09-25 13:09:57,799 - phyluce_align_get_align_summary_data - INFO - [Alignments] min:	128
+2026-09-25 13:09:57,799 - phyluce_align_get_align_summary_data - INFO - [Alignments] max:	797
+2026-09-25 13:09:57,813 - phyluce_align_get_align_summary_data - INFO - ------------------- Informative Sites summary -------------------
+2026-09-25 13:09:57,814 - phyluce_align_get_align_summary_data - INFO - [Sites] loci:	190
+2026-09-25 13:09:57,814 - phyluce_align_get_align_summary_data - INFO - [Sites] total:	99
+2026-09-25 13:09:57,814 - phyluce_align_get_align_summary_data - INFO - [Sites] mean:	0.52
+2026-09-25 13:09:57,814 - phyluce_align_get_align_summary_data - INFO - [Sites] 95% CI:	0.34
+2026-09-25 13:09:57,814 - phyluce_align_get_align_summary_data - INFO - [Sites] min:	0
+2026-09-25 13:09:57,814 - phyluce_align_get_align_summary_data - INFO - [Sites] max:	27
+2026-09-25 13:09:57,816 - phyluce_align_get_align_summary_data - INFO - ------------------------- Taxon summary -------------------------
+2026-09-25 13:09:57,816 - phyluce_align_get_align_summary_data - INFO - [Taxa] mean:		3.16
+2026-09-25 13:09:57,817 - phyluce_align_get_align_summary_data - INFO - [Taxa] 95% CI:	0.05
+2026-09-25 13:09:57,817 - phyluce_align_get_align_summary_data - INFO - [Taxa] min:		3
+2026-09-25 13:09:57,817 - phyluce_align_get_align_summary_data - INFO - [Taxa] max:		4
+2026-09-25 13:09:57,817 - phyluce_align_get_align_summary_data - INFO - ----------------- Missing data from trim summary ----------------
+2026-09-25 13:09:57,817 - phyluce_align_get_align_summary_data - INFO - [Missing] mean:	0.00
+2026-09-25 13:09:57,818 - phyluce_align_get_align_summary_data - INFO - [Missing] 95% CI:	0.00
+2026-09-25 13:09:57,818 - phyluce_align_get_align_summary_data - INFO - [Missing] min:	0.00
+2026-09-25 13:09:57,818 - phyluce_align_get_align_summary_data - INFO - [Missing] max:	0.00
+2026-09-25 13:09:57,821 - phyluce_align_get_align_summary_data - INFO - -------------------- Character count summary --------------------
+2026-09-25 13:09:57,821 - phyluce_align_get_align_summary_data - INFO - [All characters]	224,653
+2026-09-25 13:09:57,821 - phyluce_align_get_align_summary_data - INFO - [Nucleotides]		216,628
+2026-09-25 13:09:57,821 - phyluce_align_get_align_summary_data - INFO - ---------------- Data matrix completeness summary ---------------
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 50%]		190 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 55%]		190 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 60%]		190 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 65%]		190 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 70%]		190 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 75%]		190 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 80%]		31 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 85%]		31 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 90%]		31 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - [Matrix 95%]		31 alignments
+2026-09-25 13:09:57,822 - phyluce_align_get_align_summary_data - INFO - ------------------------ Character counts -----------------------
+2026-09-25 13:09:57,823 - phyluce_align_get_align_summary_data - INFO - [Characters] '-' is present 8,025 times
+2026-09-25 13:09:57,823 - phyluce_align_get_align_summary_data - INFO - [Characters] 'A' is present 65,048 times
+2026-09-25 13:09:57,823 - phyluce_align_get_align_summary_data - INFO - [Characters] 'C' is present 44,524 times
+2026-09-25 13:09:57,823 - phyluce_align_get_align_summary_data - INFO - [Characters] 'G' is present 38,467 times
+2026-09-25 13:09:57,823 - phyluce_align_get_align_summary_data - INFO - [Characters] 'T' is present 68,589 times
+2026-09-25 13:09:57,823 - phyluce_align_get_align_summary_data - INFO - ========= Completed phyluce_align_get_align_summary_data ========

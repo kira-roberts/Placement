@@ -1,0 +1,13 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:05.249     8M / 453M  WARN    General                 (kmer_coverage_model.cpp   : 218)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:06.502     8M / 453M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 10
+ * 0:00:06.503     8M / 453M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 10
+ * 0:00:06.712     7M / 453M  WARN    General                 (simplification.cpp        : 504)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:00:05.880     9M / 437M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 3
+ * 0:00:05.881     9M / 437M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 3
+ * 0:00:05.067     8M / 711M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 7
+ * 0:00:05.067     8M / 711M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 7
+ * 0:00:04.226     8M / 690M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 6
+ * 0:00:04.226     8M / 690M  WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 6
+======= Warnings saved to /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/gallus/warnings.log

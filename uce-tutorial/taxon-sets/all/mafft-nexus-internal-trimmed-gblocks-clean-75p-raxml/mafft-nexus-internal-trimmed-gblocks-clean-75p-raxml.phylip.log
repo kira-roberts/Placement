@@ -1,0 +1,145 @@
+IQ-TREE multicore version 2.3.4 COVID-edition for Linux x86 64-bit built Apr 26 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    cn15 (AVX512, FMA3, 375 GB RAM)
+Command: iqtree2 -s mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip -m TIM2+I+G -alrt 1000 -B 1000 -redo
+Seed:    303999 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 29 10:34:46 2026
+Kernel:  AVX+FMA - 1 threads (80 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 80 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 4 sequences with 70485 columns, 432 distinct patterns
+99 parsimony-informative, 13218 singleton sites, 57168 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.21729e-05 secs using 99.22% CPU
+   1  anolis       6.68%    failed      0.33%
+   2  gallus       2.46%    passed     42.66%
+   3  mus          9.54%    failed      0.00%
+   4  alligator   73.98%    failed      1.57%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL       23.17%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 303999)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.303 / LogL: -160016.542
+Init pinv, alpha: 0.090, 1.000 / Estimate: 0.089, 0.369 / LogL: -160016.793
+Init pinv, alpha: 0.180, 1.000 / Estimate: 0.178, 0.461 / LogL: -160017.045
+Init pinv, alpha: 0.270, 1.000 / Estimate: 0.268, 0.594 / LogL: -160016.990
+Init pinv, alpha: 0.360, 1.000 / Estimate: 0.359, 0.822 / LogL: -160016.895
+Init pinv, alpha: 0.451, 1.000 / Estimate: 0.452, 1.278 / LogL: -160016.645
+Init pinv, alpha: 0.541, 1.000 / Estimate: 0.547, 3.193 / LogL: -160015.615
+Init pinv, alpha: 0.631, 1.000 / Estimate: 0.617, 998.584 / LogL: -160015.141
+Init pinv, alpha: 0.721, 1.000 / Estimate: 0.617, 998.408 / LogL: -160015.231
+Init pinv, alpha: 0.811, 1.000 / Estimate: 0.617, 998.406 / LogL: -160015.228
+Optimal pinv,alpha: 0.617, 998.584 / LogL: -160015.141
+
+Parameters optimization took 0.312 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000112057 secs using 83.89% CPU
+Computing ML distances took 0.000186 sec (of wall-clock time) 0.000156 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.88894e-05 secs using 125.7% CPU
+Computing RapidNJ tree took 0.000226 sec (of wall-clock time) 0.000207 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -160035.592
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.156 second
+Computing log-likelihood of 1 initial trees ... 0.001 seconds
+Current best score: -160015.141
+
+Do NNI search on 3 best initial trees
+Finish initializing candidate tree set (3)
+Current best tree score: -160015.141 / CPU time: 0.169
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -160015.139
+UPDATE BEST LOG-LIKELIHOOD: -160015.139
+Iteration 10 / LogL: -160016.278 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -160015.139
+Iteration 20 / LogL: -160024.866 / Time: 0h:0m:0s
+Iteration 30 / LogL: -160015.139 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 40 / LogL: -160024.866 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 50 / LogL: -160019.690 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -160036.535
+Iteration 60 / LogL: -160015.139 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -160019.690 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -160035.585 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -160035.585 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -160015.139 / Time: 0h:0m:1s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -160036.535
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -160015.139
+2. Current log-likelihood: -160015.072
+3. Current log-likelihood: -160015.005
+4. Current log-likelihood: -160014.944
+5. Current log-likelihood: -160014.885
+6. Current log-likelihood: -160014.841
+7. Current log-likelihood: -160014.796
+8. Current log-likelihood: -160014.745
+9. Current log-likelihood: -160014.713
+10. Current log-likelihood: -160014.683
+11. Current log-likelihood: -160014.657
+12. Current log-likelihood: -160014.632
+13. Current log-likelihood: -160014.612
+14. Current log-likelihood: -160014.594
+15. Current log-likelihood: -160014.577
+16. Current log-likelihood: -160014.563
+17. Current log-likelihood: -160014.550
+18. Current log-likelihood: -160014.538
+Optimal log-likelihood: -160014.526
+Rate parameters:  A-C: 0.64898  A-G: 3.05333  A-T: 0.64898  C-G: 1.00000  C-T: 2.51229  G-T: 1.00000
+Base frequencies:  A: 0.300  C: 0.206  G: 0.178  T: 0.317
+Proportion of invariable sites: 0.611
+Gamma shape alpha: 998.584
+Parameters optimization took 18 rounds (0.030 sec)
+BEST SCORE FOUND : -160014.526
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.055 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.splits.nex
+Total tree length: 0.329
+
+Total number of iterations: 101
+CPU time used for tree search: 0.994 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.808 sec (0h:0m:0s)
+Total CPU time used: 1.464 sec (0h:0m:1s)
+Total wall-clock time used: 1.337 sec (0h:0m:1s)
+
+Computing bootstrap consensus tree...
+Reading input file mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.splits.nex...
+4 taxa and 6 splits.
+Consensus tree written to mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.contree
+Reading input trees file mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.contree
+Log-likelihood of consensus tree: -160014.526
+
+Analysis results written to: 
+  IQ-TREE report:                mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.iqtree
+  Maximum-likelihood tree:       mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.treefile
+  Likelihood distances:          mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.splits.nex
+  Consensus tree:                mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.contree
+  Screen log file:               mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml/mafft-nexus-internal-trimmed-gblocks-clean-75p-raxml.phylip.log
+
+Date and Time: Tue Sep 29 10:34:47 2026

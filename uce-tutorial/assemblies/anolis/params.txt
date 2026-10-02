@@ -1,0 +1,37 @@
+Command line: /usr/libexec/spades/spades.py	-1	/gpfs01/home/jc428818/Placement/uce-tutorial/filtered-data/anolis_R1.fq.gz	-2	/gpfs01/home/jc428818/Placement/uce-tutorial/filtered-data/anolis_R2.fq.gz	-o	/gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/anolis	
+
+System information:
+  SPAdes version: 3.15.5
+  Python version: 3.14.4
+  OS: Linux-5.14.0-570.62.1.el9_6.x86_64-x86_64-with-glibc2.43
+
+Output dir: /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/anolis
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/gpfs01/home/jc428818/Placement/uce-tutorial/filtered-data/anolis_R1.fq.gz']
+      right reads: ['/gpfs01/home/jc428818/Placement/uce-tutorial/filtered-data/anolis_R2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/anolis/tmp
+  Threads: 16
+  Memory limit (in Gb): 250
+

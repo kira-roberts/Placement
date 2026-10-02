@@ -1,0 +1,31 @@
+2026-09-25 11:41:08,514 - phyluce_assembly_get_fastas_from_match_counts - INFO - ===== Starting phyluce_assembly_get_fastas_from_match_counts ====
+2026-09-25 11:41:08,514 - phyluce_assembly_get_fastas_from_match_counts - INFO - Version: 1.7.3
+2026-09-25 11:41:08,514 - phyluce_assembly_get_fastas_from_match_counts - INFO - Commit: None
+2026-09-25 11:41:08,514 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --contigs: /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/contigs
+2026-09-25 11:41:08,514 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --extend_locus_contigs: None
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --extend_locus_db: None
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --incomplete_matrix: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.incomplete
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --locus_db: /gpfs01/home/jc428818/Placement/uce-tutorial/uce-results-contigmatch/probe.matches.sqlite
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --log_path: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/log
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --match_count_output: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.conf
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --output: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.fasta
+2026-09-25 11:41:08,515 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --verbosity: INFO
+2026-09-25 11:41:08,542 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 4 taxa in the match-count-config file named all-taxa-incomplete.conf
+2026-09-25 11:41:08,546 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 3397 UCE loci in an INCOMPLETE matrix
+2026-09-25 11:41:08,548 - phyluce_assembly_get_fastas_from_match_counts - INFO - ------------------Getting UCE loci for alligator-----------------
+2026-09-25 11:41:08,851 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 538 UCE loci for alligator
+2026-09-25 11:41:08,852 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for alligator
+2026-09-25 11:41:09,339 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.incomplete
+2026-09-25 11:41:09,341 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for anolis-------------------
+2026-09-25 11:41:09,534 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 407 UCE loci for anolis
+2026-09-25 11:41:09,534 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for anolis
+2026-09-25 11:41:09,896 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.incomplete
+2026-09-25 11:41:09,898 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------------Getting UCE loci for gallus-------------------
+2026-09-25 11:41:11,194 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 3178 UCE loci for gallus
+2026-09-25 11:41:11,194 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for gallus
+2026-09-25 11:41:13,187 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.incomplete
+2026-09-25 11:41:13,188 - phyluce_assembly_get_fastas_from_match_counts - INFO - ---------------------Getting UCE loci for mus--------------------
+2026-09-25 11:41:13,344 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 332 UCE loci for mus
+2026-09-25 11:41:13,345 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for mus
+2026-09-25 11:41:13,643 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/all-taxa-incomplete.incomplete
+2026-09-25 11:41:13,647 - phyluce_assembly_get_fastas_from_match_counts - INFO - ==== Completed phyluce_assembly_get_fastas_from_match_counts ====

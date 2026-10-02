@@ -1,0 +1,7 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:04.702    21M / 429M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 4
+ * 0:00:04.840    19M / 429M  WARN    General                 (simplification.cpp        : 504)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:00:04.291    22M / 455M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 6
+ * 0:00:03.353    24M / 406M  WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 5
+======= Warnings saved to /gpfs01/home/jc428818/Placement/uce-tutorial/assemblies/alligator/warnings.log

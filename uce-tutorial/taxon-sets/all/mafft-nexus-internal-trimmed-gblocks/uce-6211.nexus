@@ -1,0 +1,11 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=473;
+format datatype=dna missing=? gap=-;
+matrix
+'uce-6211_alligator' -----------------------------------------------------------------------------------------------------tcatccctttcagttcaagtaacagtctcacagaatacaggttttgtactgatatgatgtttcctagctcaaggcatggcctatccctactactgactgtaatttactttttggtctctgtcgccttgagcttgccttctgactagtttgttgaatgatgtgctaatccattatatttatcagacaagtgtatcgaccagtataaacagactggagggcacaaacctaaatgaaagctatacttcc------------------------------------------------------------------------------------------------------------------------------
+'uce-6211_anolis'    tgaagaaatcttcattacgttatgtattgtaaatgaaacattttatagtaagccattaattcatacagctgattgttttattatatttcattgtaagtt--ttcagcttctcagttggccaaacattcttgcagaatatgggttttgtactgatacgatgtttcctagctctgggcatggcctacccttactactgactataatttactttttggtctctgtcgccttgagcttgccttctgactagtttgttgaatgatgtgctaatccattatattttttagacaagtgtatcgaccagtataaacagactggagggcacaaacctaaatgaaagctatacttccttgaatcatttaaaaa-ctcctgcagtggtggcagcataaaataacctttgtacattaagtttaaggggaaaataactataaataaaatagagaggcataaggctaaaatggttttaattctatgc
+'uce-6211_gallus'    taaataagctctgattgcattaggtattataaactgtacaatttacacttctgtatgaaatcatggagttgattgttttattatatttcagtgtaaatttttcatccatttcagttcaagtaacattctcacagaatacaggtcttgtactgatatgatatttcctagctgtaggcatggcctgttcctattcctggctgtaatttactttttggtctctgtcgccttgagcttgccttctgactagtttgttgaatgatgtgctaatccattatatttttcagacaagtgtatcgaccagtataaacagactggagggcacaaacctaaatgaaagctatacttccttgaatcatttaaaaagctcctgcagtggtggcagtgcaaaataacctctgtacattaaatataagggggaaatttcaataaataaaataaagaggaagaagagacagataatgtttggaatgtgc
+'uce-6211_mus'       tgggctagtgttcgttgcattcagtgtcataaagcacacagtttatggtaccgtatgaatttgtggggctgattgttttattatattcgagtgtaaattctgcgtcccttttggttccaccaccattcccagagaatacaggttttgtgctgatacgctgtttcccagctctaggcatggcctgcgcctactcctgactgtaatttactttctggtgtctgtcgccttaagcttgccttctgactagcttgttgaatgatgtgctaatccattatatttttcagacaagtgtatcgaccagtataaacagactggagggcacaaacctaaatgaaagctatacttccctgaatcatttaagaagctacggc-gtggtggcagtgtgaaataacctctctacattaag--taaagaagagatctcaacaaataaaacacagccggatgagaagagaatgctgtttctgatctac
+;
+end;

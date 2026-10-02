@@ -1,0 +1,14 @@
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - ====== Starting phyluce_align_remove_locus_name_from_files ======
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Version: 1.7.3
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Commit: None
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --alignments: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --cores: 4
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --input_format: nexus
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --log_path: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/log
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --output: /gpfs01/home/jc428818/Placement/uce-tutorial/taxon-sets/all/mafft-nexus-internal-trimmed-gblocks-clean
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --output_format: nexus
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --taxa: None
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Argument --verbosity: INFO
+2026-09-25 13:13:35,372 - phyluce_align_remove_locus_name_from_files - INFO - Getting alignment files
+2026-09-25 13:13:35,726 - phyluce_align_remove_locus_name_from_files - INFO - Taxon names in alignments: mus,anolis,alligator,gallus
+2026-09-25 13:13:35,726 - phyluce_align_remove_locus_name_from_files - INFO - ====== Completed phyluce_align_remove_locus_name_from_files =====
