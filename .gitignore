@@ -52,3 +52,4 @@ rsconnect/
 
 # working data until ready
 inventory/
+mitofinder/2_cleaned_data/*
