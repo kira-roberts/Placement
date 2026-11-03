@@ -1,0 +1,13 @@
+Placement/mitofinder/FIXexploded-fasta.txt
+Placement/mitofinder/wrasse_reads_list.txt
+Placement/mitofinder/exploded.csv
+Placement/mitofinder/exploded-fasta.csv
+Placement/mitofinder/FIXassemblies.txt
+Placement/mitofinder/assemblies.txt
+Placement/mitofinder/unassembled.txt
+Placement/mitofinder/unexploded.txt
+Placement/mitofinder/Labrid_tree_list.txt
+Placement/mitofinder/exploded-fasta.txt
+Placement/mitofinder/assemblies2.csv
+Placement/mitofinder/assemblies.csv
+Placement/mitofinder/files_not_yet_processed.txt
